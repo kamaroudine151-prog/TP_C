@@ -113,7 +113,7 @@ int main()
     /* Fin du jeu */
     gotoxy(5, 20);
     printf("Appuyez sur une touche pour quitter...");
-    getch();
+    getchar();
 
     return 0;
 }

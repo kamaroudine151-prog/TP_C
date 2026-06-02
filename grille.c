@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <windows.h>
-#include "utils.h"
+extern void gotoxy (int x, int y);
+extern void Color (int t, int f);
 
 /* ==============================
    CONSTANTES ET VARIABLES

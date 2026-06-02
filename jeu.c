@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <ctype.h>
-#include <conio.h>
+
 
 /* Depuis utils.c */
 extern void gotoxy(int x, int y);
@@ -44,7 +44,8 @@ void init_jeu()
     joueurs[second].symbole = (choix_symbole == 'X') ? 'O' : 'X';
 
     printf("\nAppuyez sur une touche pour commencer ...");
-    getch();
+    getchar();
+    getchar();
 }
 
 void afficher_infos_jeu(int startX, int startY)
