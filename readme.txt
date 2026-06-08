@@ -7,7 +7,7 @@ les noms, choisir aléatoirement qui commence, attribuer les symboles et affiche
 KOUDORO Kamarou Dine : Fonction jouer_colonne. Son seul rôle est de vérifier si une colonne est pleine 
 ou non avant qu'un joueur y joue.
 
-KOUHOGBE Louange : Fonction verif_gain (verification). Après chaque coup joué, il vérifie dans les 4 directions
+KOUHOGBE Louange : Fonction verif_gain (verification). Après chaque coup joué, elle vérifie dans les 4 directions
 si un joueur a aligné 4 pions, et si la grille est complètement remplie
 
 KINSOU Prince : Fonction main. Il appelle toutes les fonctions dans le bon ordre et gère la boucle 
